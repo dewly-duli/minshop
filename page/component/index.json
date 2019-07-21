@@ -1,0 +1,5 @@
+{
+    "navigationBarTitleText": "DEWLY",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance":50
+}

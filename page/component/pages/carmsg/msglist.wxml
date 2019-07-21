@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="page-body" style="padding-bottom:10px;">
+	  <!--消息列表-->
+	  <view class="goods-list" wx:for="{{parkingIntentionList}}"  wx:key="id{{index}}">
+	    <navigator url="./msg?id={{item.id}}"  class="list" >
+	      <view class="ll">
+	        <!-- 图片缩略图  -->
+              <view>
+                <image class="q-image" src="{{item.url}}"></image>
+              </view>
+              <view>
+                <view>customer_user_id:{{item.customer_user_id}}</view>
+                <view>user_id:{{item.user_id}}</view>
+                <view>parking_car_id:{{item.parking_car_id}}</view>
+
+                <view>customer_user_nick_name:{{item.customer_user_nick_name}}</view>
+                <view>comment:{{item.comment}}</view>
+
+              </view>
+	      </view>
+	    </navigator>
+	  </view>
+	  <!--消息列表 end-->
+  </view>
+</view>

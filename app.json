@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "page/component/pages/car/change",
+    "page/component/index",
+    "page/component/pages/details/makeorder",
+    "page/component/pages/details/car",
+    "page/component/pages/my/my",
+    "page/component/pages/report/order",
+    "page/component/pages/report/details",
+    "page/component/pages/address/index",
+    "page/component/pages/address/add",
+    "page/component/pages/details/details",
+    "page/component/pages/search/search-results",
+    "page/component/pages/share/share",
+    "page/component/pages/withdrawal/order",
+    "page/component/pages/withdrawal/details",
+    "page/component/pages/help/help",
+    "page/component/pages/help/feedback",
+    "page/component/pages/my/customer",
+    "page/component/pages/about/about",
+    "page/component/pages/report/logistics",
+    "page/component/pages/report/report",
+    "page/component/pages/content/content",
+    "page/component/pages/search/search",
+    "page/component/pages/car/add",
+    "page/component/pages/car/mycar",
+    "page/component/pages/car/deatil",
+    "page/component/pages/carmsg/msglist",
+    "page/component/pages/carmsg/msg"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "DEWLY",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+
+      {
+        "pagePath": "page/component/pages/car/change",
+        "iconPath": "image/car.png",
+        "selectedIconPath": "image/car-on.png",
+        "text": "停车位"
+      },
+      {
+        "pagePath": "page/component/pages/carmsg/msglist",
+        "iconPath": "image/msg.png",
+        "selectedIconPath": "image/msg_on.png",
+        "text": "消息"
+      },
+
+      {
+        "pagePath": "page/component/pages/my/my",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

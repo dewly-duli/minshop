@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="page-body">
+    <!--介绍-->
+    <view class="about">
+      <view class="title">DEWLY是由都丽社区于2019年推出的微信小程序商城网店系统。</view>
+    </view>
+    <!--介绍 end-->
+    <!--相关协议-->
+    <!-- <view class="about-agreement">
+      <view class="title">相关协议：</view>
+      <navigator url="../content/content?gid=1&id=7" class="url">《服务协议》</navigator>
+      <navigator url="../content/content?gid=1&id=6" class="url">《产品使用许可协议》</navigator>
+      <navigator url="../content/content?gid=1&id=5" class="url">《法律声明及隐私权政策》</navigator>
+    </view> -->
+    <!--相关协议 end-->
+  </view>
+</view>
